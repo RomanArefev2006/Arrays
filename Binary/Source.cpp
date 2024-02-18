@@ -1,4 +1,4 @@
-#include "iostream";
+ï»¿#include "iostream";
 #include <string>
 
 using namespace std;
@@ -8,7 +8,7 @@ void main() {
 	int x;
 	string str, res;
 
-	cout << "Âåäèòå ÷èñëî: "; cin >> x;
+	cout << "Ð’ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> x;
 
 	for ( ; x / 2 != 0; ) {
 		str += to_string(x % 2);
