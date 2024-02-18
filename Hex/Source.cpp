@@ -1,4 +1,4 @@
-#include "iostream";
+ï»¿#include "iostream";
 
 using namespace std;
 
@@ -7,7 +7,7 @@ void main() {
 	
 	int x;
 
-	cout << "Ââåäèòå ÷èñëî: "; cin >> x;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> x;
 
 	if (x % 16 != 0) {
 
