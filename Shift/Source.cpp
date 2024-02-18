@@ -1,4 +1,4 @@
-#include "iostream";
+ï»¿#include "iostream";
 
 using namespace std;
 
@@ -9,7 +9,7 @@ void main() {
 	const int SIZE = 10;
 	int fib[SIZE] = { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 };
 	
-	cout << "Ââåäèòå ÷èñëî: "; cin >> x;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> x;
 
 	for (int i = 0; i < x; i++) {
 		num = fib[0];

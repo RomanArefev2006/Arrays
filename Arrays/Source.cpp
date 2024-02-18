@@ -1,4 +1,4 @@
-#include "iostream";
+ï»¿#include "iostream";
 
 using namespace std;
 //#define ENTERING_VALUES
@@ -15,7 +15,7 @@ void main() {
 
 #ifdef ENTERING_VALUES
 	for (int i = 0; i < SIZE; i++) {
-		cout << "Ââåäèòå çíà÷åíèå " << i + 1 << ": ";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ " << i + 1 << ": ";
 		cin >> arr[i];
 	}
 
