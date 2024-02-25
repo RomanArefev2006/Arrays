@@ -10,7 +10,7 @@ void main() {
 
 	cout << "Ведите число: "; cin >> x;
 
-	for ( ; x / 2 != 0; ) {
+	for ( ; x / 2 != 0 ; ) {
 		str += to_string(x % 2);
 		x /= 2;
 		if (x == 1) {
